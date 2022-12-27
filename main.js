@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         scorestart = false;
         w.clearInterval(timeinterval);
       };
-      document.querySelector(".start").addEventListener("click", start);
+      document.querySelector(".start").addEventListener("click", start); // TODO: rename image names when time permits
       const candyImages = [
         "url(images/pupp1.jpg)",
         "url(images/pupp2.jpg)",
